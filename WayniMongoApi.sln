@@ -1,0 +1,35 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Api\Api.csproj", "{91653AF9-5062-426F-95AE-8BE83F0FD6A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{D2102896-AF8F-498F-9790-9B3E9D5706B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.csproj", "{B5A2A8F2-6639-4A2D-BFEF-B9BD39821BF3}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{698E3973-AF69-446E-9A40-1E8F6E202B3B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91653AF9-5062-426F-95AE-8BE83F0FD6A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91653AF9-5062-426F-95AE-8BE83F0FD6A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91653AF9-5062-426F-95AE-8BE83F0FD6A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91653AF9-5062-426F-95AE-8BE83F0FD6A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2102896-AF8F-498F-9790-9B3E9D5706B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2102896-AF8F-498F-9790-9B3E9D5706B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2102896-AF8F-498F-9790-9B3E9D5706B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2102896-AF8F-498F-9790-9B3E9D5706B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5A2A8F2-6639-4A2D-BFEF-B9BD39821BF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5A2A8F2-6639-4A2D-BFEF-B9BD39821BF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5A2A8F2-6639-4A2D-BFEF-B9BD39821BF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5A2A8F2-6639-4A2D-BFEF-B9BD39821BF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{698E3973-AF69-446E-9A40-1E8F6E202B3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{698E3973-AF69-446E-9A40-1E8F6E202B3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{698E3973-AF69-446E-9A40-1E8F6E202B3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{698E3973-AF69-446E-9A40-1E8F6E202B3B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
